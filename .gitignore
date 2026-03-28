@@ -150,12 +150,17 @@ cython_debug/
 runs/
 images/
 layout_data/
-viet-pcc-training/
+viet-pcc-training/*
+!viet-pcc-training/**/weights/
+!viet-pcc-training/**/weights/best.pt
+!viet-pcc-training/**/weights/last.pt
+!viet-pcc-training/**/args.yaml
 mesh-candidate_bestfit/
 outputs/
 outputs_v2_fined/
 checkpoints/
 .cache/
+# Keep *.pt ignored globally except the ones explicitly unignored above
 *.pt
 *.pth
 *.weights
