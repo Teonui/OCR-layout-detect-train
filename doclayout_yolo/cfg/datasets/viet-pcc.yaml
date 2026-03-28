@@ -1,0 +1,18 @@
+# Vietnamese Notarized Documents (PCC) Layout Dataset
+# Labels from D:\pcc train\data.yaml
+path: D:\Yolo doc layout\DocLayout-YOLO\layout_data\viet-pcc # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test: images/test # test images (relative to 'path')
+
+# Classes
+names:
+  0: "Quoc hieu"
+  1: "Ten van ban"
+  2: "Thong tin ca nhan"
+  3: "Tai san duoc ghi"
+  4: "Thong tin phu"
+  5: "Noi dung dieu khoan"
+  6: "Gia tri tai san"
+  7: "Gia tri hop dong"
+  8: "Chu ky, Con dau"

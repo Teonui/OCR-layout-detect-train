@@ -1,0 +1,19 @@
+# Vietnamese Notarized Documents (PCC) Layout Dataset
+# Use train as val to bypass path issues and get metrics during training
+path: D:\dataset_pcc
+train: images\train
+val: images\train # Using train set as validation set for now
+test: images\test
+
+# Classes (from your manual mapping)
+names:
+  0: "Quoc hieu"
+  1: "Ten van ban"
+  2: "Thong tin ca nhan"
+  3: "Tai san duoc ghi"
+  4: "Thong tin phu"
+  5: "Noi dung dieu khoan"
+  6: "Gia tri tai san"
+  7: "Gia tri hop dong"
+  8: "Chu ky, Con dau"
+  9: "Sua"
